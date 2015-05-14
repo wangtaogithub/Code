@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:background="#000000">
+     
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:scaleType="fitStart"
+        android:src="@drawable/link" />
+    
+     <TextView
+         android:id="@+id/link_dialog_title_tips"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:gravity="left"
+         android:textColor="#f0f0f0"
+         android:text="通过GoodixLink分享"
+         android:typeface="monospace" />
+
+</LinearLayout>

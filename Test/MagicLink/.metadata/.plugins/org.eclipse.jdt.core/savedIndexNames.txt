@@ -1,0 +1,1 @@
+INDEX VERSION 1.126+C:\Users\andrew\Desktop\MagicLink_2013110801\.metadata\.plugins\org.eclipse.jdt.core

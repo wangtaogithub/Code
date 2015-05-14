@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MagicLink" >
+
+    <LinearLayout
+        android:id="@+id/link_state_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" >
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="left"
+	        android:layout_marginLeft="20dp"
+	        android:text="@string/link_switch" />
+        
+        <Switch 
+            android:id="@+id/linkState"
+            android:layout_width="40dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/open_file_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/link_state_layout"
+        android:layout_centerHorizontal="true" >
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="left"
+	        android:layout_marginLeft="20dp"
+	        android:text="@string/file_open_switch" />
+        
+        <Switch 
+            android:id="@+id/openFileSwitch"
+            android:layout_width="40dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:layout_marginRight="20dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/save_log_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/open_file_layout"
+        android:layout_centerHorizontal="true" >
+        
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:gravity="left"
+	        android:layout_marginLeft="20dp"
+	        android:text="@string/save_log" />
+        
+        <Switch 
+            android:id="@+id/saveLogSwitch"
+            android:layout_width="40dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:layout_marginRight="20dp"/>
+    </LinearLayout>
+</RelativeLayout>
