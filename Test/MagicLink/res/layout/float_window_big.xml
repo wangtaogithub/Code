@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/big_window_layout"
+	android:layout_width="200dip"
+	android:layout_height="100dip"
+	android:background="@drawable/bg_link_big"
+	android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/operate"
+        style="@style/AppBaseTheme"
+        android:layout_width="100dip"
+        android:layout_height="28dip"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dip"
+        android:text="Operate"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="100dip"
+        android:layout_height="28dip"
+        android:layout_gravity="center"
+        android:text="Close Window"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dip"
+        android:layout_height="28dip"
+        android:layout_gravity="center"
+        android:text="Return Window"
+        android:textSize="10dp" />
+
+</LinearLayout>
